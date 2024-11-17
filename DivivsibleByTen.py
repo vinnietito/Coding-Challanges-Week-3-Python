@@ -10,9 +10,9 @@ def divisible_by_ten(num):
     """
     
     if num % 10 == 0:
-        return True
+        print(f"True. {num} is didvisible by 10.😂")
     else:
-        return False
+        print(f"No. {num} is NOT divisible by 10!👽")
     
 #Test Cases
 print(divisible_by_ten(20)) #Output: True (20 is divisible by 10)
