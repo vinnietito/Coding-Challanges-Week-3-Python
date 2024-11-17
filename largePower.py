@@ -19,4 +19,5 @@ def large_power(base, exponent):
 print(large_power(10, 3)) #Output: True (10^3 = 1000)
 print(large_power(2,10)) #Output: True (2^10 = 1024)
 print(large_power(3, 5)) #Output: False (3^5 = 243)
+print(large_power(10, 10))
     
